@@ -17,6 +17,11 @@ public class Conversions
         System.out.println("4. Meters to Feet");
         System.out.println("5. Ounces to Milliliters");
         System.out.println("6. Milliliters to Ounces");
+        System.out.println("7. chances created to goals");
+        System.out.println("8. goals to chances created");
+        System.out.println("9. possesion to wins");
+        System.out.println("10. wins to possesion");
+
         //Add 2 more conversions, each both ways, to add choices 7, 8, 9, and 10.
         //You can add even more if you would like.
 
@@ -31,8 +36,10 @@ public class Conversions
             double fahrenheit = celsius * (9.0 / 5.0) + 32;
             System.out.println(celsius + " degrees celsius is " + fahrenheit + " degrees fahrenheit");
         }
-        if (selection == 2)
+        if (selection == 7)
         {
+            System.out.println("Enter chances created");
+            
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
         }
         //add more if statements here.
