@@ -39,6 +39,19 @@ public class Conversions
         if (selection == 7)
         {
             System.out.println("Enter chances created");
+            double chances= keyboard.nextDouble();
+            keyboard.nextLine();
+            double goals= chances/3.0 + 0;
+            System.out.println( (int)chances + " chances created is " + (int)goals + " goals scored");
+        }
+        
+if (selection==8)
+{
+            System.out.println("Enter goals scored");
+            double goals= keyboard.nextDouble();
+            keyboard.nextLine();
+            double chances= goals*3;
+            System.out.println( (int)goals + " goals scored is about " + (int)chances + " chances created");
             
             //add the code to ask the user to enter Fahrenheit and then convert to Celsius
         }
